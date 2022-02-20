@@ -8,19 +8,21 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div id="dark-active">
-      <div id="heading">
-        <p id="heading-el">Metric/ Imperial unit conversion</p>
-        <p id="convert-el"></p>
-      </div>
-      <div id="results">
-        <p class="title" id="length">Length</p>
-        <p id="length-el"></p>
-        <p class="title" id="volume">Volume</p>
-        <p id="volume-el"></p>
-        <p class="title" id="Mass">Mass</p>
-        <p id="mass-el"></p>
-      </div>
+    <div id="heading">
+      <p id="heading-el">Metric/ Imperial unit conversion</p>
+    </div>
+    <div id="value">
+      <label for="convert-el">Enter value to convert</label>
+      <input type="number" id="convert-el" />
+      <button onclick="convert()">Convert</button>
+    </div>
+    <div id="results">
+      <p class="title" id="length">Length</p>
+      <p id="length-el"></p>
+      <p class="title" id="volume">Volume</p>
+      <p id="volume-el"></p>
+      <p class="title" id="Mass">Mass</p>
+      <p id="mass-el"></p>
     </div>
 
     <script src="index.js"></script>
