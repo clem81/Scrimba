@@ -1,0 +1,20 @@
+body {
+  background: lightseagreen;
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+  position: top;
+  font-size: 72px;
+  background-color: #281b2d;
+  color: #fff;
+}
+
+.subheading {
+  font-size: 48px;
+  color: #fcd801;
+  background-color: #281b2d;
+  border-bottom: #00c54c solid 4px;
+  padding: 25px;
+}
