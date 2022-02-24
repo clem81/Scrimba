@@ -1,0 +1,45 @@
+body {
+  background: lightseagreen;
+  margin: 0px;
+}
+.container {
+  max-width: 1000px;
+
+  margin: auto;
+}
+
+h1 {
+  margin: 0px;
+  position: top;
+  font-size: 72px;
+  background-color: #281b2d;
+  color: #fff;
+}
+
+.subheading {
+  font-size: 48px;
+  color: #fcd801;
+  background-color: #281b2d;
+  border-bottom: #00c54c solid 4px;
+  padding: 25px;
+}
+
+.white-text {
+  color: azure;
+}
+
+.columns {
+  display: flex;
+}
+.main-content {
+  width: 70%;
+  margin-right: 3%;
+}
+
+.sidebar {
+  width: 30%;
+  margin-left: 3%;
+}
+.col-right {
+  margin-left: 10px;
+}
