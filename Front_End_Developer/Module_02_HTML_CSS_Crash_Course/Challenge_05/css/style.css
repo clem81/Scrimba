@@ -1,0 +1,12 @@
+body {
+  background: lightseagreen;
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+  position: top;
+  font-size: 72px;
+  background-color: #281b2d;
+  color: #fff;
+}
