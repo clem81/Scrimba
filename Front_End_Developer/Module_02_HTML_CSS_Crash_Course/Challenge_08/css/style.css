@@ -2,6 +2,11 @@ body {
   background: lightseagreen;
   margin: 0px;
 }
+.container {
+  max-width: 1000px;
+  min-width: 800px;
+  margin: auto;
+}
 
 h1 {
   margin: 0px;
