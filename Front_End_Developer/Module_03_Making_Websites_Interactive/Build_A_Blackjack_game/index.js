@@ -6,6 +6,7 @@ let hasBlackjack = false;
 let isAlive = true;
 let message = "";
 let age = 20;
+let cards = [];
 
 if (age < 21) {
   console.log("You can not enter the club!");
@@ -13,22 +14,33 @@ if (age < 21) {
   console.log("Welcome");
 }
 
-function cards() {
-  let firstCard = Math.floor(Math.random() * 11 - 2 + 1) + 2;
-  let secondCard = Math.floor(Math.random() * 11 - 2 + 1) + 2;
-  let sum = firstCard + secondCard;
-
-  return [firstCard, secondCard, sum];
+function drawCard() {
+  let card = Math.floor(Math.random() * 11 - 2 + 1) + 2;
+  return card;
 }
 
-function displayCards() {
-  return (cardsEl.textContent = `Cards: ${firstCard}  ${secondCard}`);
+function displayCards(cards) {
+  let message = "";
+  for (let card in cards) {
+    message = message + " " + cards[card];
+  }
+  return (cardsEl.textContent = "Cards: " + message);
 }
+//todo - work out logic so sum is universal
+function sum(first, second = 0) {}
 
 function startGame() {
+  renderGame();
+}
+
+function renderGame() {
   //displayCards();
-  let [first, second, sum] = cards();
-  cardsEl.textContent = `Cards: ${first} ${second}`;
+  cards.push(drawCard());
+  cards.push(drawCard());
+
+  let sum = cards[0] + cards[1];
+  displayCards(cards);
+  //cardsEl.textContent = `Cards: ${first} ${second}`;
   sumEl.textContent = `Sum: ${sum}`;
 
   if (sum <= 20) {
@@ -41,4 +53,10 @@ function startGame() {
     isAlive = false;
   }
   messageEl.textContent = message;
+}
+
+function newCard() {
+  cards.push(drawCard());
+  console.log("Drawing a new card from the deck");
+  console.log(cards);
 }
