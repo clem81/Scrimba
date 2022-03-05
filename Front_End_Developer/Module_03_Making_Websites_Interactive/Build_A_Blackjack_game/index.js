@@ -6,13 +6,11 @@ let playerEl = document.querySelector("#player-el");
 let hasBlackjack = false;
 let isAlive = false;
 let message = "";
-let age = 20;
 let cards = [];
-
 let player = {
   name: "Matt",
   chips: 250,
-  age: 27,
+  age: 127,
 };
 
 playerEl.textContent = player.name + ":  £" + player.chips;
@@ -24,7 +22,7 @@ if (player.age < 21) {
 }
 
 function drawCard() {
-  let card = Math.floor(Math.random() * 11 - 2 + 1) + 2;
+  let card = Math.floor(Math.random() * 11 + 1);
   return card;
 }
 
@@ -46,12 +44,8 @@ function startGame() {
   isAlive = true;
   cards.push(drawCard());
   cards.push(drawCard());
-
   let sum = sumCards(cards);
   displayCards(cards);
-  //cardsEl.textContent = `Cards: ${first} ${second}`;
-  //sumEl.textContent = `Sum: ${sum}`;
-
   renderGame(sum);
 }
 
