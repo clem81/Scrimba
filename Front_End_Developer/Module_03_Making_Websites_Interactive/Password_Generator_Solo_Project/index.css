@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  color: antiquewhite;
+}
+
+.container {
+  position: absolute;
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 62px;
+  top: 64px;
+  margin: auto;
+  background-color: #1f2937;
+  border: 5px solid aliceblue;
+  box-shadow: 10px, 10px, 10px;
+  border-radius: 15px;
+  width: 550px;
+  height: 550px;
+  text-align: center;
+}
+.heading {
+  margin-top: 80px;
+}
+
+.text-color1 {
+  color: antiquewhite;
+}
+
+.text-color2 {
+  color: #55f991;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+}
+
+#passwords p {
+  background-color: #0c2e4b;
+  color: #55f991;
+}
