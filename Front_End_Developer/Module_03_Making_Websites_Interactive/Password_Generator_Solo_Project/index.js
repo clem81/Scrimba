@@ -24,10 +24,6 @@ function clearPasswords() {
   while (passwordSection.hasChildNodes()) {
     passwordSection.removeChild(passwordSection.children[0]);
   }
-  //   for (let i = 0; i > passCount; i++) {
-  //     passwordSection.removeChild(passwordSection.children[0]);
-  //     // passwordSection.removeChild(passwordSection.firstElementChild);
-  //   }
 }
 function appendPassword() {
   clearPasswords();
