@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+button {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  height: 2rem;
+}
+#jane-btn {
+  background-color: magenta;
+}
+
+#mark-btn {
+  background-color: yellow;
+}
