@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Creator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row heading">
+        <p class="header">Invoice Creator</p>
+        <p class="supporting-text">Thanks for choosing GoodCorp, LLCI</p>
+      </div>
+      <!--closes heading -->
+      <div class="row button-row">
+        <button id="wash-btn">Wash Car: £10</button>
+        <button id="mow-btn">Mow lawn: £20</button>
+        <button id="weeds-btn">Pull weeds: £30</button>
+      </div>
+      <!--closes button row-->
+      <div class="row invoice invoice-heading supporting-text">
+        <span>TASK</span>
+        <span>TOTAL</span>
+      </div>
+      <div class="row invoice" id="invoice-el"></div>
+      <div class="row invoice invoice-summary">
+        <div>Notes</div>
+        <div>Total amount</div>
+      </div>
+    </div>
+    <!--closes container-->
+
+    <script src="index.js"></script>
+  </body>
+</html>

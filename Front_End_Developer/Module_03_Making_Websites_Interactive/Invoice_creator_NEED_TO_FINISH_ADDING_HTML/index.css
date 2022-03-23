@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 550px;
+  height: 720px;
+  left: 155px;
+  top: 959px;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  text-align: center;
+  background-color: #3a69d2;
+}
+
+.header {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+}
+.supporting-text {
+  font-size: 16px;
+  line-height: 28px;
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
+.button-row {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button-row button {
+  margin-top: 40px;
+  width: 143px;
+  height: 45px;
+  padding: 9px 13px;
+  background-color: #d1d4f4;
+  border-radius: 7px;
+  border: solid 1px #d5d4d8;
+}
+
+.invoice {
+  margin: 30px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.invoice-heading {
+}
+
+.invoice-summary {
+  border-top: 1px solid #c3c6d8;
+}
