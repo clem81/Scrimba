@@ -1,0 +1,30 @@
+:root {
+    --turquoise-green: #aad1b6ff;
+    --light-steel-blue: #b5caf9ff;
+    --yellow-green-crayola: #a7d878ff;
+    --violet-blue: #294dafff;
+    --raisin-black: #2b283aff;
+
+    --border-rad-5: 5px;
+    --font-family: 'Karla', sans-serif;
+    --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+body {
+    background-color: var(--light-steel-blue);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family)
+}
+
+.poem {
+    width: 40%;
+    text-align: center;
+    background: white;
+    padding: 2em;
+    border-radius: var(--border-rad-5);
+    box-shadow: var(--box-shadow);
+    font-size: 1.5rem;
+}
