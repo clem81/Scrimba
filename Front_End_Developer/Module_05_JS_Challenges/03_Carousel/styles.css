@@ -17,7 +17,8 @@ body {
 }
 
 .carousel .carousel-item-visible {
-display: block;
+    display: block;
+    animation: fadeVisibility 2s;
 }
 
 .carousel .carousel-item img{
@@ -51,6 +52,11 @@ display: block;
 }
 #carousel-button-next{
     margin-right: 20px;
+}
+
+@keyframes fadeVisibility{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /*
