@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+<body class="center">
+    <h1>I "Can" Recycle! 🥫</h1>
+    <div>
+        <label for="recycle-select">Select item to recycle:</label>
+        <select name="recycle-select" id="recycle-select">
+            <option value="">--</option>
+            <option value="🥫">🥫 can</option>
+            <option value="📄">📄 paper</option>
+            <option value="🍾">🍾 bottle</option>
+            <option value="📦">📦 cardboard</option>
+        </select>
+    </div>
+    <button class="btn" id="recycle-btn">Recycle</button>
+    <button class="btn" id="empty-btn">Empty Bin</button>
+    <div class="recycle-bin center" id="recycle-bin"></div>
+    <p id="info-paragraph">Recycled items will appear above ⬆️</p>
+    <script src="index.js"></script>
+</body>
+</html>
