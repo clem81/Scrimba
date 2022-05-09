@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.container{
+    margin: auto;
+    max-width: 90%;
+    border: solid 1px fuchsia;
+    background: #f8f8f8;
+}
+.title{
+    font-family: 'Lora', serif;
+    font-size: 3.375 rem;
+    color: #143774;
+}
+
+.subtitle {
+    font-family: 'Ubuntu bold';
+    font-size: 1 rem;
+    color: #1792D2;
+}
+
+nav {
+    
+    color: #707070;
+    font-size: 1rem;
+}
+nav li{
+    list-style: none;
+    
+}
